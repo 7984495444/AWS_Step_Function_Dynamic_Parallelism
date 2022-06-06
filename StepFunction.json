@@ -3,7 +3,7 @@
     "States": {
       "ValidatePayment": {
         "Type": "Task",
-        "Resource": "arn:aws:lambda:ap-south-1:357171621133:function:ProcessingLambda",
+        "Resource": "arn:aws:lambda:ap-south-1:196546862387:function:ProcessingLambda",
         "Next": "CheckPayment"
       },
       "CheckPayment": {
